@@ -1,0 +1,44 @@
+<ion-header no-border>
+  <ion-navbar>
+    <ion-buttons end *ngIf="showSkip">
+      <button ion-button (click)="startApp()" color="primary">Skip</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-bounce>
+  <ion-slides #slides (ionSlideWillChange)="onSlideChangeStart($event)" pager>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-1.png" class="slide-image"/>
+      <h2 class="slide-title">
+        Bievenido a la Aplicación Móvil <b>MATIS</b>
+      </h2>
+      <p>
+        <b>MATIS</b> (Módulos automatizados internos) es el sistema de gestión de procesos internos de la AMC
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-2.png" class="slide-image"/>
+      <h2 class="slide-title" >FUNCIONES</h2>
+      <p>Mediante <b>MATIS APP</b> usted podrá revisar las inspecciones que le han sido asignadas las cuales podrán ser mostradas dentro del mapa de Quito.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-3.png" class="slide-image"/>
+      <h2 class="slide-title">IMPRESIÓN DE ACTAS</h2>
+      <p><b>MATIS APP</b> le permite imprimir actas para entregar al administrado desde cualquier lugar.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>
+      <h2 class="slide-title">Listo para comenzar?</h2>
+      <button ion-button icon-end large clear (click)="startApp()">
+        Continuar
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>

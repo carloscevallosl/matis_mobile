@@ -1,0 +1,25 @@
+$categories: (
+        ionic: color($colors, primary),
+        tecnica: #AC282B,
+        general: #0059b3,
+        fauna: #FE4C52,
+        conjunta: #FD8B2D,
+        programado: #FED035,
+        operativo: #69BB7B,
+        construcciones: #3BC7C4,
+        ccf: #B16BE3,
+        otros: #6600CC,
+);
+
+@function auxiliary-categories() {
+  @return map-remove($categories);
+}
+
+page-schedule {
+  @each $track, $value in auxiliary-categories() {
+   ion-item-sliding[track=#{$track}] ion-label {
+     border-left: 2px solid $value;
+     padding-left: 10px;
+   }
+  }
+}

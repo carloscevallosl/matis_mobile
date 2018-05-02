@@ -1,0 +1,110 @@
+{
+
+  "schedule": [{
+    "date": "2018-05-17",
+    "groups": [{
+      "time": "8:00 am",
+      "sessions": [{
+        "name": "Inspección - Control de espacio público",
+        "timeStart": "8:00 am",
+        "timeEnd": "9:00 am",
+        "location": "La mariscal",
+        "tracks": ["Tecnica"],
+        "id": "1"
+      }]
+    }, {
+      "time": "9:15 am",
+      "sessions": [{
+        "name": "Inspección libadores y licenciamiento",
+        "location": "Plaza Foch",
+        "description": " Se realizará controles de libadores y licenciamiento",
+        "speakerNames": [""],
+        "timeStart": "9:15 am",
+        "timeEnd": "9:30 am",
+        "tracks": ["General"],
+        "id": "2"
+      }, {
+        "name": "Libadores",
+        "location": "Calama",
+        "description": " Se realizará controles de libadores y licenciamiento",
+        "speakerNames": [""],
+        "timeStart": "9:30 am",
+        "timeEnd": "9:45 am",
+        "tracks": ["Fauna"],
+        "id": "3"
+      }, {
+        "name": "Licenciamiento",
+        "location": "Juan Leon Mera",
+        "description": " Se realizará controles de libadores y licenciamiento",
+        "speakerNames": [""],
+        "timeStart": "9:45 am",
+        "timeEnd": "10:00 am",
+        "tracks": ["Conjunta"],
+        "id": "4"
+      }]
+    }, {
+      "time": "10:00 am",
+      "sessions": [{
+        "name": " Se verificará LUAE´s a los establecimientos y libadores en el espacio publico  ",
+        "location": "Tumbaco",
+        "description": "Se verificará LUAE´s a los establecimientos y libadores en el espacio publico",
+        "speakerNames": [""],
+        "timeStart": "10:00 am",
+        "timeEnd": "10:15 am",
+        "tracks": ["Programado"],
+        "id": "5"
+      }, {
+        "name": "Se verificará LUAE´s a los establecimientos y libadores en el espacio publico",
+        "location": "Tumbaco",
+        "description": "Se verificará LUAE´s a los establecimientos y libadores en el espacio publico",
+        "speakerNames": [""],
+        "timeStart": "10:15 am",
+        "timeEnd": "10:30 am",
+        "tracks": ["Operativo"],
+        "id": "6"
+      }]
+    }, {
+      "time": "11:00 am",
+      "sessions": [{
+        "name": "Se verificará LUAE´s a los establecimientos y libadores en el espacio publico",
+        "location": "Tumbaco",
+        "description": "Se verificará LUAE´s a los establecimientos y libadores en el espacio publico",
+        "speakerNames": [""],
+        "timeStart": "11:00 am",
+        "timeEnd": "11:45 am",
+        "tracks": ["Construcciones"],
+        "id": "7"
+      }]
+    }]
+  }],
+
+
+  "speakers": [{
+    "name": "Carlos Cevallos",
+    "profilePic": "assets/img/speakers/silueta.jpg",
+    "twitter": "ionicframework",
+    "about": "Desarrollador de aplicaciones móviles",
+    "location": "AMC Informàtica",
+    "email": "carlos.cevallos@quito.gob.ec",
+    "phone": "0992668299",
+    "id": "1"
+  }, {
+    "name": "Byron Herrera",
+    "profilePic": "assets/img/speakers/silueta.jpg",
+    "twitter": "ionicframework",
+    "about": "Desarrollador Web",
+    "location": "AMC Informàtica",
+    "email": "byron.herrera@quito.gob.ec",
+    "phone": "09926682906",
+    "id": "2"
+  }],
+
+
+  "map": [{
+    "name": "Agencia Metropolitana de Control",
+    "lat": -0.171607,
+    "lng": -78.478392,
+    "center": true
+  }]
+
+}
